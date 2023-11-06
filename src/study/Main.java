@@ -22,17 +22,17 @@ public class Main extends Application
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
+        //this creates the buttons
         Button ccards = new Button("create cards");
         Button csets = new Button("card sets");
 
-        //Label welcome = new Label("");
-        //
+
 
         csets.setPrefSize(100, 50);
         ccards.setPrefSize(100, 50);
 
         HBox root = new HBox(20,ccards, csets);
+        root.getChildren().add(welcome);
         root.setBackground(Background.EMPTY);
         root.setAlignment(Pos.CENTER);
 
