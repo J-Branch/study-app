@@ -6,6 +6,7 @@ import javafx.stage.Stage;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.Background;
@@ -24,6 +25,11 @@ public class Main extends Application
 
         Button ccards = new Button("create cards");
         Button csets = new Button("card sets");
+
+        //Label welcome = new Label("");
+
+        csets.setPrefSize(100, 50);
+        ccards.setPrefSize(100, 50);
 
         HBox root = new HBox(20,ccards, csets);
         root.setBackground(Background.EMPTY);
