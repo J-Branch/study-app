@@ -26,7 +26,7 @@ public class Main extends Application
         Button ccards = new Button("create cards");
         Button csets = new Button("card sets");
 
-
+        Label welcome = new Label("welcome");
 
         csets.setPrefSize(100, 50);
         ccards.setPrefSize(100, 50);
