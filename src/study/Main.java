@@ -22,7 +22,7 @@ public class Main extends Application
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
+        //this creates the buttons
         Button ccards = new Button("create cards");
         Button csets = new Button("card sets");
 
